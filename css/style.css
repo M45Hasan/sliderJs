@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+.slider {
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  width: 104%;
+  height: 300px;
+  position: absolute;
+
+  transform: translateX(100%);
+}
+.overlay {
+  background: rgba(0, 0, 0,);
+  width: 100%;
+  height: 100%;
+}
+.active {
+  transform: translateX(0);
+}
+.one {
+  background: url(../images/p1.jpg) no-repeat center;
+  background-size: cover;
+}
+.two {
+  background: url(../images/p2.jpg) no-repeat center;
+  background-size: cover;
+}
+.three {
+  background: url(../images/p3.jpg) no-repeat center;
+  background-size: cover;
+}
+.four {
+  background: url(../images/p4.jpg) no-repeat center;
+  background-size: cover;
+}
+.five {
+  background: url(../images/p5.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+.pbut {
+  width: 40px;
+  height: 40px;
+  font-size: xx-large;
+  font-weight: bold;
+  color: coral;
+  position: absolute;
+  left: 40px;
+  top: 100px;
+}
+.nbut {
+  width: 40px;
+  height: 40px;
+  font-size: xx-large;
+  font-weight: bold;
+  color: coral;
+  position: absolute;
+  right: 40px;
+  top: 100px;
+}
